@@ -1,0 +1,150 @@
+*
+{
+	font-size: 15px;
+}
+body{
+	height: 85vh;
+	background-size: cover;
+	background-position:  center center fixed;
+}
+nav
+{   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	position: fixed;
+	margin-top: 2px;
+	width: 99%;
+	height: 80px;
+	line-height: 3.3rem;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	background-color: transparent;
+    opacity: 1;
+    background-attachment:fixed ;
+    transition: all;
+
+}
+nav ul
+{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	list-style: none;
+	padding-left: 350px;
+	text-align: center;
+ }
+ .link
+
+ {  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 	font-size: 25px;
+ 	color: #779191;
+ 	margin-right: 2.2rem;
+ 	padding: 0 1.5rem;
+ 	display: inline-block;
+ 	position: relative;
+ 	transition: transform 1s ;
+    opacity: 1;
+ }
+
+ .link:hover
+ { 
+ 	background-color: lightgoldenrodyellow;
+ 	font-size: 1.7rem;
+ 	}
+
+ .info{
+    
+ 	width: 370px;
+  height: 100px;
+  text-align: center;
+  margin: 0px;
+  color: #daa520;
+ }
+ .info img{
+ 			margin-left: -40px;
+  		margin-top: 100px;
+  		width: 250px;
+  		height: 250px;
+ 		 border-radius: 50%;
+ }
+ .info h1{
+ 	margin-left: 4px;
+  	font-size: 20px;
+  	letter-spacing: 2.5px;
+ }
+ .info h2{
+ 		margin-left: 15px;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+ }
+ .info h3{
+ 		margin-left: -15px;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+ }
+ 
+ .aboutme{
+    color: goldenrod;
+    width: 630px;
+    height: 90px;
+    margin-top: 270px;
+    margin-left: 890px;
+    
+     }
+ .aboutme p{
+    font-size: 22px;
+    
+ }
+ button{
+    background-color: black;
+    color: brown;
+    border-radius: 5px;
+    margin-left: 280px;
+ }
+
+
+ .report{
+    width: 380px;
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    margin-left: 530px;
+}
+.report h1{
+    margin-left: 4px;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+
+
+
+#detail {
+  width: 650px;
+  height: 100px;
+  padding-top: 100px;
+  color: #0b49f9;
+  text-transform: uppercase;
+  margin-left: 500px;
+}
+#detail h1{
+    margin-left: 4px;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    padding-left: 150px;
+}
+#detail p{
+    margin-left: 50px;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    transition: all;
+}
+#detail p:hover{
+    font-size: 18px;
+    color: darkblue;
+}
