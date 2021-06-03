@@ -4,15 +4,14 @@
 }
 body{
     width: 100%;
-	height:100%;
+	height: 100%;
 	background-size: cover;
-	background-position:  center ;
+	background-position:  center;
 }
 nav
 {   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-	position: fixed;
 	margin-top: 2px;
 	width: 99%;
 	height: 80px;
@@ -64,6 +63,41 @@ nav ul
   margin: 0px;
   color: #daa520;
  }
+ .hambox{
+    width: 20px;
+    height: 20px;
+    
+    float: right;
+    margin-right: 20px;
+    display: none;
+
+
+ }
+ .ham1{
+    width: 12px;
+    height: 0.1px;
+    border:0.1px solid whitesmoke ;
+    margin-top: 3px;
+    margin-left: 3.2px;
+    border-radius: 10px;
+ }
+ .ham2{
+    width: 12px;
+    height: 0.1px;
+    border:0.1px solid whitesmoke ;
+    margin-top: 5px;
+    margin-left: 3.2px;
+    border-radius: 10px;
+ }
+.ham3{
+    width: 12px;
+    height: 0.11px;
+    border:0.1px solid whitesmoke ;
+    margin-top: 5.2px;
+    margin-left: 3.2px;
+    border-radius: 10px;
+}
+ 
  .info img{
  			margin-left: -45px;
   		margin-top: 100px;
@@ -99,11 +133,24 @@ nav ul
     font-size: 22px;
     
  }
- button{
-    background-color: black;
-    color: brown;
+ button {
+    background-color: grey;
     border-radius: 5px;
     margin-left: 280px;
+    transition: all;
+    animation-name: btn;
+    cursor: pointer;
+ }
+ button a {
+    color: brown;
+ }
+ button:active{
+    width: 100px;
+    height: 40px;
+ }
+ button:after{
+    width: 50px;
+    height: 30px;
  }
  footer{
     display: flex;
@@ -156,7 +203,7 @@ footer ul li a{
     width: 380px;
     height: 100px;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 80px;
     text-transform: uppercase;
     margin-left: 530px;
 }
@@ -168,12 +215,10 @@ footer ul li a{
 }
 
 
-
-
 #detail {
   width: 650px;
   height: 70px;
-  padding-top: 100px;
+  padding-top: 40px;
   color: #0b49f9;
   text-transform: uppercase;
   margin-left: 500px;
@@ -215,7 +260,7 @@ form{
     border: transparent;
     border-bottom: 1px solid green;
     margin:5px ;
-    padding: 10px 15px;
+    padding: 20px 15px;
     margin-top: 5px;
 
 }
@@ -234,19 +279,142 @@ form{
 }
 .f6 input{
     background-color: #ff5722;
-    width: 100%;
+    width: 50%;
     cursor: pointer;
     border-color: transparent;
-    margin-top: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 
 }
  #hi{
     text-align: center;
     text-transform: uppercase;
     padding-top: 15px;
+}
+section{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.picture1{
+    width: 240px;            
+background-color: lightgrey;          
+height: 280px;
+ margin: 0 0 180px 300px;
+ text-align: center;
+  overflow: hidden;
+  cursor: pointer; 
+     box-shadow: 5px 3.5px 7px 2px rgba(0, 0, 0, 0.4);
+     transition: all;
+     transition-duration: 1.5s;
+     animation-name: pic1;
+     animation-duration: 3s;
+
+}
+.picture2{
+width: 240px;            
+background-color: lightgrey;          
+height: 280px;
+ margin: -460px 0 80px 800px;
+ text-align: center;
+  overflow: hidden;
+  cursor: pointer; 
+     box-shadow: 5px 3.5px 7px 2px rgba(0, 0, 0, 0.4);
+     transition: all;
+     transition-duration: 1.5s;
+     animation-name: pic2;
+     animation-duration: 3s;
+
+     }
+.picture3{
+    width: 240px;            
+background-color: lightgrey;          
+height: 280px;
+ margin: 90px 0 120px 300px;
+ text-align: center;
+  overflow: hidden;
+  cursor: pointer; 
+     box-shadow: 5px 3.5px 7px 2px rgba(0, 0, 0, 0.3);
+     transition: all;
+     transition-duration: 1.5s;
+     animation-name: pic3;
+     animation-duration: 3s;0
+
+}
+.picture4{
+    width: 240px;            
+background-color: lightgrey;          
+height: 280px;
+ margin: -400px 0 0 880px;
+ text-align: center;
+  overflow: hidden;
+  cursor: pointer; 
+     box-shadow: 5.4px 3.5px 7.3px 2px rgba(0, 0, 0, 0.4);
+     transition: all;
+     transition-duration: 1.5s;
+     animation-name: pic4;
+     animation-duration: 3s;
 
 
+}
+.plc1{  margin-top: 200px;
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+    border: 1px solid black;
+    
+}
 
-
-
-
+.picture1:hover{
+    width: 350px;
+    height: 280px;
+    font-weight: bold;
+}
+.picture2:hover{
+    width: 350px;
+    height: 280px;
+    font-weight: bold;
+}
+.picture3:hover{
+    width: 350px;
+    height: 280px;
+    font-weight: bold;
+}
+.picture4:hover{
+    width: 350px;
+    height: 280px;
+    font-weight: bold;
+}
+@keyframes pic1 {
+    form {
+        width:200px; height: 280px;
+        background-color: greenyellow;}
+    to {
+        width: 240px; height: 280px; background-color: lightgoldenrodyellow;
+    }
+}
+@keyframes pic2 {
+    form {
+        width:200px; height: 280px;
+        background-color: greenyellow;}
+    to {
+        width: 240px; height: 280px; background-color: lightskyblue;
+    }
+}
+@keyframes pic3 {
+    form {
+        width:200px; height: 280px;
+        background-color: greenyellow;}
+    to {
+        width: 240px; height: 280px; background-color: lightblue;
+    }
+}
+@keyframes pic4 {
+    form {
+        width:200px; height: 280px;
+        background-color: greenyellow;}
+    to {
+        width: 240px; height: 280px; background-color: goldenrod;
+    }
+}
