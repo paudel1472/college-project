@@ -1,28 +1,75 @@
 *
 {
-	font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
+    display: block;
     width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position:  center;
+    height: 1500px;
+	}
+   
+
+.body11{
+    background: url(5.jpg);
+    width: 100%;
+    height: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+}
+.body12{
+    background: url(12.jpg);
+    width: 100%;
+    height: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+}
+.body13{
+    background: url(13.jfif);
+    width: 100%;
+    height: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+}
+.body14{
+    background: url(11.jfif);
+    width: 100%;
+    height: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+}
+.body15{
+    background: url(8.jpg);
+    width: 100%;
+    height: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center;
+}
+.img12{
+    display: none;
 }
 nav
 {   display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 	margin-top: 2px;
 	width: 99%;
 	height: 80px;
 	line-height: 3.3rem;
-	display: flex;
 	justify-content: space-between;
 	text-transform: uppercase;
 	background-color: transparent;
     opacity: 1;
-    background-attachment:fixed ;
-    transition: all;
 
 }
 nav ul
@@ -31,25 +78,26 @@ nav ul
     flex-direction: row;
     flex-wrap: wrap;
 	list-style: none;
-	padding-left: 350px;
-	text-align: center;
+	margin-left: 350px;
+    text-align: center;
  }
- .link
+ nav ul li a
 
- {  display: flex;
+ {  /*display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
  	font-size: 25px;
  	color: #779191;
  	margin-right: 2.2rem;
  	padding: 0 1.5rem;
  	display: inline-block;
- 	position: relative;
  	transition: transform 1s ;
     opacity: 1;
+    text-decoration: none;
+    color: #f2b10d;
  }
 
- .link:hover
+ nav ul li a:hover
  { 
  	background-color: lightgoldenrodyellow;
  	font-size: 1.7rem;
@@ -60,43 +108,13 @@ nav ul
  	width: 370px;
   height: 100px;
   text-align: center;
-  margin: 0px;
+  margin-top: 300px;
   color: #daa520;
+  margin-left: 50px;
  }
- .hambox{
-    width: 20px;
-    height: 20px;
-    
-    float: right;
-    margin-right: 20px;
-    display: none;
+ 
 
-
- }
- .ham1{
-    width: 12px;
-    height: 0.1px;
-    border:0.1px solid whitesmoke ;
-    margin-top: 3px;
-    margin-left: 3.2px;
-    border-radius: 10px;
- }
- .ham2{
-    width: 12px;
-    height: 0.1px;
-    border:0.1px solid whitesmoke ;
-    margin-top: 5px;
-    margin-left: 3.2px;
-    border-radius: 10px;
- }
-.ham3{
-    width: 12px;
-    height: 0.11px;
-    border:0.1px solid whitesmoke ;
-    margin-top: 5.2px;
-    margin-left: 3.2px;
-    border-radius: 10px;
-}
+ 
  
  .info img{
  			margin-left: -45px;
@@ -123,11 +141,10 @@ nav ul
  
  .aboutme{
     color: goldenrod;
-    width: 630px;
+    width: 530px;
     height: 90px;
-    margin-top: 280px;
-    margin-left: 850px;
-    
+    margin-left: 750px;
+margin-top: 280px;    
      }
  .aboutme p{
     font-size: 22px;
@@ -154,9 +171,9 @@ nav ul
  }
  footer{
     display: flex;
-    background-color: black;
-    margin-top: 230px;
+    margin-top: 530px;
     margin-bottom: 20px;
+    margin-left: 70px;
     opacity: 0.7;
 }
 footer ul{
@@ -166,32 +183,34 @@ footer ul{
     list-style: none;
     width: 500px;
     height: 70px;
-    padding-left: 150px;
-    padding-top: -20px;
+    padding-left: 250px;
+   /* padding-top: 20px;*/
     
 
 }
-footer ul li {
+/*footer ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 footer ul li a{
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     padding: 7px;
 }
 .location{
     color: goldenrod;
-    width: 200px;
+    width: 300px;
     height:100px ;
     margin-left: 400px;
 }
 .location h2{
-    font-size: 15px;
+    font-size: 20px;
 }
 .location h3{
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 .location h4{
 
@@ -206,6 +225,7 @@ footer ul li a{
     padding-top: 80px;
     text-transform: uppercase;
     margin-left: 530px;
+    color: orangered;
 }
 .report h1{
     margin-left: 4px;
@@ -213,7 +233,9 @@ footer ul li a{
     font-size: 20px;
     text-decoration:underline;
 }
-
+.sec1{
+    margin-top: 100px;
+}
 
 #detail {
   width: 650px;
@@ -237,7 +259,7 @@ footer ul li a{
 }
 #detail p:hover{
     font-size: 18px;
-    color: darkblue;
+    color: lightgreen;
 }
 form{
     max-width: 500px;
@@ -246,8 +268,8 @@ form{
     box-sizing: border-box;
     margin-top: 5px;
     font-weight: bold;
-    color: #061540;
-    font-size: 18Spx;
+    color: goldenrod;
+    font-size: 18px;
 }
 
 .f6{
@@ -269,6 +291,7 @@ form{
     display: block;
     text-transform: uppercase;
     font-size: 14px;
+    color: green;
 }
 .f1 input, .f1 textarea{
     outline: none;
@@ -276,6 +299,8 @@ form{
     background:none;
     font-size: 19px;
     width:45%;
+    color: greenyellow;
+
 }
 .f6 input{
     background-color: #ff5722;
@@ -291,10 +316,10 @@ form{
     text-transform: uppercase;
     padding-top: 15px;
 }
-section{
+/*section{
     margin-left: 80px;
     margin-top: 50px;
-}
+}*/
 
 .picture1{
     width: 240px;            
@@ -338,14 +363,13 @@ height: 280px;
      transition: all;
      transition-duration: 1.5s;
      animation-name: pic3;
-     animation-duration: 3s;0
-
+     animation-duration: 3s;
 }
 .picture4{
     width: 240px;            
 background-color: lightgrey;          
 height: 280px;
- margin: -400px 0 0 880px;
+ margin: -400px 0 0 800px;
  text-align: center;
   overflow: hidden;
   cursor: pointer; 
@@ -357,8 +381,8 @@ height: 280px;
 
 
 }
-.plc1{  margin-top: 200px;
-    padding-top: 20px;
+.plc1{  margin-top: 220px;
+    padding-top: 10px;
     width: 100%;
     height: 40px;
     background-color: brown;
@@ -387,7 +411,7 @@ height: 280px;
     font-weight: bold;
 }
 @keyframes pic1 {
-    form {
+    from {
         width:200px; height: 280px;
         background-color: greenyellow;}
     to {
@@ -395,7 +419,7 @@ height: 280px;
     }
 }
 @keyframes pic2 {
-    form {
+    from {
         width:200px; height: 280px;
         background-color: greenyellow;}
     to {
@@ -403,7 +427,7 @@ height: 280px;
     }
 }
 @keyframes pic3 {
-    form {
+    from {
         width:200px; height: 280px;
         background-color: greenyellow;}
     to {
@@ -411,10 +435,315 @@ height: 280px;
     }
 }
 @keyframes pic4 {
-    form {
+    from {
         width:200px; height: 280px;
         background-color: greenyellow;}
     to {
         width: 240px; height: 280px; background-color: goldenrod;
     }
 }
+
+.body1{
+    width: 890px;
+    height: 950px;
+    background-color: ghostwhite;
+    margin-top: 80px;
+    margin-left: 250px;
+     box-shadow: 5px 3.5px 7px 2px rgba(0, 0, 0, 0.45);
+     opacity: 0.89;
+
+}
+#body2{
+    width: 250px;
+    height: 950px;
+    background-color: lightgrey;
+}
+#body2 img{
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-left: 23px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+#body2 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: brown;
+}
+.cnt{
+    text-align: center;
+    width: 150px;
+    border-bottom:2px solid ;
+    margin-left: 50px;
+    font-size: 20px;
+    background: lightgreen;
+}
+.add{
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: lightgreen;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+h4{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    background: lightgreen;
+}
+.p-add{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+.email,.cnt1{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    background: lightgreen;
+}
+.g-mail,.phn{
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin-top: 6px;
+}
+#p-det{
+    text-align: center;
+    letter-spacing: 0.8px;
+    width: 150px;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 15px; 
+   background-color: lightgreen;
+   margin-top: 5px;
+
+}
+.skill{
+    list-style-type: none;
+    margin-right:50px;
+}
+.skill li{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+#hobby{
+    text-align: center;
+    width: 150px;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    background-color:lightgreen;
+}
+#hobby1{
+    list-style: none;
+    margin-top: 6px;
+    margin-left: 50px;
+}
+#hobby1 li{
+    margin-top: 6px;
+    font-size: 16px;
+}
+.body3{
+    width: 640px;
+    height: 945px;
+    margin-left: 260px;
+    margin-top: -800px;
+}
+
+.body3 #summary1{
+width: 94%;
+margin-top: 5px;
+margin-left: 20px;
+font-size: 18px;
+padding-top: 3px;
+}
+.body3 h2{
+    border-bottom: 2px solid black;
+    margin-top:10px;
+}
+
+.body3 h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.body3 p{
+    width: 94%;
+margin-top: 5px;
+margin-left: 20px;
+font-size: 18px;
+}
+.training1{
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 40px;
+}
+.training1 li{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: -17px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+
+}
+
+.exp{
+    font-size: 25px;
+    width: 94%;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.exp p{
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1100px) and (min-width: 701px){
+   
+   .body11{
+    width: 100%;
+    background-attachment: fixed;
+
+   }
+   .body12{
+     width: 100%;
+    background-attachment: fixed;
+   }
+   .body13{
+     width: 100%;
+    background-attachment: fixed;
+   }
+   .body14{
+     width: 100%;
+    background-attachment: fixed;
+   }
+   .body15{
+     width: 100%;
+    background-attachment: fixed;
+   }
+   nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 1000px;
+    
+   }
+   nav ul{
+    width: 900px;
+    margin-left: 75px;
+   }
+   nav ul li a{
+    font-size: 20px;
+   }
+
+   
+   .info{
+    height: 520px;
+   }
+   .info h1{
+    font-size: 15px;
+    text-align: center;
+    margin-left: -101px;
+}
+.info h2{
+    font-size: 12px;
+    margin-left: -100px;
+}
+.info h3{
+    font-size: 11px;
+    margin-left: -100px;
+}
+.aboutme{
+    margin-left: 500px;
+    margin-top: -160px;
+    width: 400px;
+}
+.aboutme p{
+    font-size: 12px;
+    text-align: center;
+}
+button{
+    width: 50px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+footer{
+    width: 1000px;
+    margin-left: 50px;
+    background: transparent;
+    height: 50px;
+
+
+}
+footer ul{
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 60px;
+}
+.location{
+    margin-left: -70px;
+}
+.sec1{
+    margin-left: 150px;
+}
+.picture1{
+    margin-left: 0px;
+}
+.picture2{
+    margin-left: 440px;
+}
+.picture3{
+    margin-left: 1px;
+}
+.picture4{
+    margin-left: 440px;
+}
+.report{
+    margin-left: 270px;
+    text-align: center;
+}
+
+
+#detail{
+    margin-left: 260px;
+}
+form{
+    margin-left: 250px;
+}
+.body1 {
+    width: 900px;
+    height: 950px;
+    margin-top: 31px;
+    margin-left: 30px;}
+#body2 img{
+    margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
