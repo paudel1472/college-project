@@ -635,7 +635,25 @@ font-size: 18px;
 .home2 p{
     font-size: 18px;
 }
-
+#port1 h2{
+    background-color: greenyellow;
+    margin-top: 10px;
+}
+#port1 p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.port-1{
+    width: 100%;
+}
+.port-1 img{
+    width: 40%;
+    height: 250px;
+    margin: 10px 0 0 65px;
+}
+.port2{
+    margin: 20px;
+}
 
 
 @media all and (max-width: 1100px) and (min-width: 701px){
