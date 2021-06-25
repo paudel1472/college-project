@@ -321,13 +321,12 @@ form{
 .sec1{
     display: grid;
     grid-row: auto auto;
-    height: 100%;
     margin-top: 200px;
 }
 .picture1{
-    width: 240px;            
+    width: 280px;            
 background-color: lightgrey;          
-height: 280px;
+height: 285px;
  margin: 0 0 180px 300px;
  text-align: center;
   overflow: hidden;
@@ -338,7 +337,7 @@ height: 280px;
 
 }
 .picture2{
-width: 240px;            
+width: 280px;            
 background-color: lightgrey;          
 height: 280px;
  margin: -460px 0 80px 800px;
@@ -351,7 +350,7 @@ height: 280px;
      
      }
 .picture3{
-    width: 240px;            
+    width: 280px;            
 background-color: lightgrey;          
 height: 280px;
  margin: 90px 0 120px 300px;
@@ -363,7 +362,7 @@ height: 280px;
      
 }
 .picture4{
-    width: 240px;            
+    width: 280px;            
 background-color: lightgrey;          
 height: 280px;
  margin: -400px 0 0 800px;
@@ -608,22 +607,22 @@ font-size: 18px;
 }
 .rep1 h2{
     text-align: center;
-    background-color: skyblue;
+    background-color: lightyellow;
 }
-.home1{
+#home1{
     width: 100%;
 }
 
-.home1 h2{
+#home1 h2{
     text-align: center;
     margin-top: 10px;
     background-color: greenyellow;
 }
-.home1 p{
+#home1 p{
     font-size: 18px;
 }
 
-#home-1 img{
+.home-1 img{
     width: 40%;
     height: 250px;
     margin: 10px 0 0 65px;
@@ -643,16 +642,15 @@ font-size: 18px;
     font-size: 18px;
     margin-top: 5px;
 }
-.port-1{
-    width: 100%;
+
+#cont1 h2{
+    background-color: greenyellow;
+    margin-top: 20px;
+    
 }
-.port-1 img{
-    width: 40%;
-    height: 250px;
-    margin: 10px 0 0 65px;
-}
-.port2{
-    margin: 20px;
+#cont1 p{
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 
