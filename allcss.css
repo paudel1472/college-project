@@ -678,7 +678,27 @@ font-size: 18px;
     font-size: 18px;
 
 }
+#ref1{
+    text-align: center;
+    background-color: lightyellow;
+    margin-top: 5px;
+}
+.ref-1 h2{
+    text-align: center;
+    background-color: lightgreen;
+    margin-top: 5px;
+}
 
+.ref-1 h3{
+    text-align: center;
+}
+.ref-1 p{
+    margin: 20px;
+    text-align: center;
+}
+.profile1 h2{
+    background-color: green;
+}
 @media all and (max-width: 1100px) and (min-width: 701px){
    
    .body11{
