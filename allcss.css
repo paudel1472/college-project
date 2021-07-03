@@ -29,7 +29,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:  center;
-
+/*(Wallpaper : 2880x1800 px, Apple Inc, colorful, keys, laptop, MacBook, notebooks, photography 2880x1800 - goodfon - 1272645 - HD Wallpapers - WallHere, n.d.)
+*/
 }
 
 .body12{
@@ -40,6 +41,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:  center;
+   /* (black cubes Wallpapers and Backgrounds Image, n.d.)
+*/
 }
 .body13{
     background: url(12.jpg);
@@ -49,6 +52,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:  center;
+   /* (4K Dark Phone Wallpapers, n.d.)
+*/
 }
 .body14{
     background: url(13.jpg);
@@ -58,6 +63,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:  center;
+    /*(Cool Lock Screen Windows 10 - 10240x5760 Wallpaper - teahub.io, n.d.)
+*/
 }
 .body15{
     background: url(15.jpg);
@@ -67,6 +74,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:  center;
+   /* (Windows 10 Default Background Black - 3840x3036 Wallpaper - teahub.io, n.d.)
+*/
+
 }
 
 nav
@@ -316,7 +326,7 @@ form{
     text-align: center;
     text-transform: uppercase;
     padding-top: 15px;
-}
+}/*(Responsive Contact Form Using HTML & CSS, n.d.)*/
 
 .sec1{
     display: grid;
@@ -716,23 +726,6 @@ font-size: 18px;
 }
 @media all and (max-width: 1100px) and (min-width: 701px){
    
-   .body11{
-    width: 100%;
-    
-
-   }
-   .body12{
-     width: 100%;
-   }
-   .body13{
-     width: 100%;
-   }
-   .body14{
-     width: 100%;
-   }
-   .body15{
-     width: 100%;
-   }
 #check1{
     display: none;
     }
